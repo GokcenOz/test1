@@ -1,0 +1,9 @@
+<suite name="Failed Testing Suite" data-provider-thread-count="1" parallel="classes">
+    <test name="Failed Runner">
+        <classes>
+            <class name="stepDefinitions.ParallelFailedRunner"> </class>
+            <class name="stepDefinitions.ParallelFailedRunner1"> </class>
+            <class name="stepDefinitions.ParallelFailedRunner2"> </class>
+        </classes>
+    </test>
+</suite>
