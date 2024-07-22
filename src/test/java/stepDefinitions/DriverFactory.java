@@ -53,7 +53,7 @@ public class DriverFactory extends BaseTest {
                 }
 
                 driver.set(new ChromeDriver(chromeOptions));
-                getDriver().get(getProperty("url"));
+               /*getDriver().get(getProperty("url"));*/
                 getDriver().manage().window().maximize();
 
             } catch (Exception t) {
