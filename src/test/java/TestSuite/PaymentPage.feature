@@ -169,4 +169,12 @@ Feature: Payment Page Scenarios
     And 3 sn beklenir.
     Then payment result sayfasının açıldığı onaylanır.
     Then Sayfa kapatılır
+
+  Scenario: TestC&P1
+    Given go to CP page.
+    And "//input[@id='username']" input alanına "melisamuslu@gmail.com" değeri yazılır.
+    And "//input[@id='password']" input alanına "12345678Mm-" değeri yazılır.
+    When "kc-login" tıklanır.
+    And 3 sn beklenir.
+    Then Sayfa kapatılır
     
